@@ -21,7 +21,7 @@ let iOS_package = Package(
 
 let mac_package = Package(
     name: "Material",
-    platform: [.mac("10.10)"],
+    platforms: [.macOS("10.10")],
     products: [
         .library(name: "Material", targets: ["Material"])
     ],
